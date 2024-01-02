@@ -38,8 +38,8 @@ const singleProject = async (projectID) => {
                         ${projects[ID].longDescription}
                         </p>
                         <p>
-                        <a href="#" class="btn">Open</a>
-                        <a href="#" class="btn">Download</a>
+                        <a href="${projects[ID].open}" class="btn">Open</a>
+                        <a href="${projects[ID].github}" class="btn">GitHub</a>
                         </p>
                         <p class="heb note">
                         ${projects[ID].note}
@@ -62,12 +62,3 @@ const urlParams = new URLSearchParams(queryString);
 const projectID = urlParams.get('id');
 
 singleProject(projectID);
-
-
-
-
-
-
-
-
-
