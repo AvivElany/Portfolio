@@ -14,14 +14,14 @@
       "longDescription": "מחשבון BMI מעוצב. כל מה שצריך לעשות הוא להזין גובה במטרים ומשקל בקילוגרמים וללחוץ על הכפתור. מיד תקבל ציון מספרי והערה בהתאם",
       "note": "",
       "open": "./javascript/BMICalculator/BMICalculator.html",
-      "github": "URL",
+      "github": "https://github.com/AvivElany/Portfolio/tree/main/javascript/BMICalculator",
       "downloadLink": "URL"
     },
     {
       "id": "2",
       "kind": "js",
       "title": "Calculator",
-      "thumbnail": "../asset/images/js/Calculator.jpg",
+      "thumbnail": "./asset/images/js/Calculator.jpg",
       "tech": [
         "./asset/tech/html.svg",
         "./asset/tech/css.svg",
@@ -31,287 +31,287 @@
       "longDescription": "מחשבון פשוט המבצע פעולות חיבור חיסור כפל וחילוק.",
       "note": "",
       "open": "./javascript/Calculator/calculator.html",
-      "github": "URL",
+      "github": "https://github.com/AvivElany/Portfolio/tree/main/javascript/Calculator",
       "downloadLink": "URL"
     },
     {
       "id": "3",
       "kind": "js",
       "title": "Guess My Number Game",
-      "thumbnail": "../asset/images/js/guessMyNumber.jpg",
+      "thumbnail": "./asset/images/js/guessMyNumber.jpg",
       "tech": [
-        "../asset/tech/html.svg",
-        "../asset/tech/css.svg",
-        "../asset/tech/js.svg"
+        "./asset/tech/html.svg",
+        "./asset/tech/css.svg",
+        "./asset/tech/js.svg"
       ],
       "shortDescription": "משחק נחש את המספר",
       "longDescription": "משחק אינטרקטיבי בו המחשב מגריל מספר בצורה רנדומלית מהמספר אחד עד ללמספר עשרים<br>כל שעל המשתמש לעשות הוא לנחש בצורה מושכלת איזה מספר הוגרל.<br>המחשב שומר בזיכרון את התוצאה הגבוהה ביותר.",
       "note": "",
       "open": "./javascript/guess-my-number/guess-my-number.html",
-      "github": "URL",
+      "github": "https://github.com/AvivElany/Portfolio/tree/main/javascript/guess-my-number",
       "downloadLink": "URL"
     },
     {
       "id": "4",
       "kind": "js",
       "title": "Product management system",
-      "thumbnail": "../asset/images/js/manageProduct.jpg",
+      "thumbnail": "./asset/images/js/manageProduct.jpg",
       "tech": [
-        "../asset/tech/html.svg",
-        "../asset/tech/css.svg",
-        "../asset/tech/js.svg"
+        "./asset/tech/html.svg",
+        "./asset/tech/css.svg",
+        "./asset/tech/js.svg"
       ],
       "shortDescription": "מערכת ניהול מוצרים",
       "longDescription": "פרויקטון בן של פרויקט אתר הקניות.<br>עמוד ובוא טבלה המושכת מידע ממאגר נתונים קבוע בו ניתן לבצע שינויים במאגר המידע ה-APIי שלנו<br>באמצעות CRUD ניתן להציג את המידע, למחוק, להוסיף ולערוך רשומות",
       "note": "ראשית ישנו דף התחברות שאותו צריך למלא ואז יפתח עמוד הניהול<br>פרטי ההתחברות מסתתרים בקובץ ה-JS",
       "open": "./javascript/manageProduct/manageProductLogin.html",
-      "github": "URL",
+      "github": "https://github.com/AvivElany/Portfolio/tree/main/javascript/manageProduct",
       "downloadLink": "URL"
     },
     {
       "id": "5",
       "kind": "js",
       "title": "Pomodoro Timer",
-      "thumbnail": "../asset/images/js/pomodoroTimer.jpg",
+      "thumbnail": "./asset/images/js/pomodoroTimer.jpg",
       "tech": [
-        "../asset/tech/html.svg",
-        "../asset/tech/css.svg",
-        "../asset/tech/js.svg"
+        "./asset/tech/html.svg",
+        "./asset/tech/css.svg",
+        "./asset/tech/js.svg"
       ],
       "shortDescription": "טיימר סופר לאחור",
       "longDescription": "טיימר הסופר לאחור לפי דרישה עד לסיום הזמן המבוקש",
       "note": "לפרויקט באג שלא הצלחתי להתגבר עליו. החישוב זמנים נכון עפי מערכי השיעור, רפרנסים וחברי הכיתה ועדיין זה לא סופר נכון דקות ושעות.",
       "open": "./javascript/pomodoroTimer/pomodoroTimer.html",
-      "github": "URL",
+      "github": "https://github.com/AvivElany/Portfolio/tree/main/javascript/pomodoroTimer",
       "downloadLink": "URL"
     },
     {
       "id": "6",
       "kind": "js",
       "title": "Random Password",
-      "thumbnail": "../asset/images/js/randomPassword.jpg",
+      "thumbnail": "./asset/images/js/randomPassword.jpg",
       "tech": [
-        "../asset/tech/html.svg",
-        "../asset/tech/css.svg",
-        "../asset/tech/js.svg"
+        "./asset/tech/html.svg",
+        "./asset/tech/css.svg",
+        "./asset/tech/js.svg"
       ],
       "shortDescription": "מחולל סיסמאות אקראיות",
       "longDescription": "מחולל רנדומלי שרץ על חמישה סוגי תווים לפי בחירה אישית ומייצר סיסמא באורך מבוקש. משתמש באותיות לטיניות גדולות, קטנות, מספרים, סימנים וותיות עיבריות.",
       "note": "",
       "open": "./javascript/random-password/randomPassword.html",
-      "github": "URL",
+      "github": "https://github.com/AvivElany/Portfolio/tree/main/javascript/random-password",
       "downloadLink": "URL"
     },
     {
       "id": "7",
       "kind": "js",
       "title": "Random Color",
-      "thumbnail": "../asset/images/js/randomColor.jpg",
+      "thumbnail": "./asset/images/js/randomColor.jpg",
       "tech": [
-        "../asset/tech/html.svg",
-        "../asset/tech/css.svg",
-        "../asset/tech/js.svg"
+        "./asset/tech/html.svg",
+        "./asset/tech/css.svg",
+        "./asset/tech/js.svg"
       ],
       "shortDescription": "מחולל צבעים אקראי",
       "longDescription": "מחולל צבעים רנדומלי שרץ על מעל ל16 מיליון צבעים ומציג למשתמש את הצבע המוגרל וצובע את הרקע בהתאם לבחירה. ניתן להשתמש ללא הגבלת פעמים",
       "note": "",
       "open": "./javascript/randomColor/randomColor.html",
-      "github": "URL",
+      "github": "https://github.com/AvivElany/Portfolio/tree/main/javascript/randomColor",
       "downloadLink": "URL"
     },
     {
       "id": "8",
       "kind": "js",
       "title": "Random Sentence",
-      "thumbnail": "../asset/images/js/randomSentence.jpg",
+      "thumbnail": "./asset/images/js/randomSentence.jpg",
       "tech": [
-        "../asset/tech/html.svg",
-        "../asset/tech/css.svg",
-        "../asset/tech/bootstrap.svg",
-        "../asset/tech/js.svg"
+        "./asset/tech/html.svg",
+        "./asset/tech/css.svg",
+        "./asset/tech/bootstrap.svg",
+        "./asset/tech/js.svg"
       ],
       "shortDescription": "מחולל בדיחות צאק נוריס משפטי מרפי",
       "longDescription": "מחולל רנדומלי של בדיחות ומשפטים לפי בחירה אישית בכפתור.<br>המאגר נמצא באוביקט ופונקציה מגרילה מערך אקראי ומדפיסה בתיבה ייעודית.",
       "note": "",
       "open": "./javascript/randomSentence/randomSentence.html",
-      "github": "URL",
+      "github": "https://github.com/AvivElany/Portfolio/tree/main/javascript/randomSentence",
       "downloadLink": "URL"
     },
     {
       "id": "9",
       "kind": "js",
       "title": "Rock Paper Scissors",
-      "thumbnail": "../asset/images/js/rockPaperScissors.jpg",
+      "thumbnail": "./asset/images/js/rockPaperScissors.jpg",
       "tech": [
-        "../asset/tech/html.svg",
-        "../asset/tech/css.svg",
-        "../asset/tech/js.svg"
+        "./asset/tech/html.svg",
+        "./asset/tech/css.svg",
+        "./asset/tech/js.svg"
       ],
       "shortDescription": "אבן נייר ומספריים",
       "longDescription": "משחק אבן נייר ומספריים שעשינו במהלך השיעור<br>פונקציה רנדומלית מגרילה מספר שמשמעותו אבן ניייר או מספריים ומבחירה של המשתמש והאפךיקציה משווה בין תוצאות לפי חוקי המשחק ולבסוף מדפיסה מי ניצח את מי וכל עשרה משחקונים מדפיסה מנצח כללי",
       "note": "",
       "open": "./javascript/rock-paper-scisors/rockPaperScissors.html",
-      "github": "URL",
+      "github": "https://github.com/AvivElany/Portfolio/tree/main/javascript/rock-paper-scisors",
       "downloadLink": "URL"
     },
     {
       "id": "10",
       "kind": "js",
       "title": "E-CommerceWeb Website",
-      "thumbnail": "../asset/images/js/ecommerceWebsite.jpg",
+      "thumbnail": "./asset/images/js/ecommerceWebsite.jpg",
       "tech": [
-        "../asset/tech/html.svg",
-        "../asset/tech/css.svg",
-        "../asset/tech/bootstrap.svg",
-        "../asset/tech/js.svg"
+        "./asset/tech/html.svg",
+        "./asset/tech/css.svg",
+        "./asset/tech/bootstrap.svg",
+        "./asset/tech/js.svg"
       ],
       "shortDescription": "אתר קניות און ליין",
       "longDescription": "אתר קניות מלא המושך נתונים ממאגר נתונים כללי ומדפיס על המסך לפי עיצוב.<br>בנוסף שני כפתורי פילטור לפי קטגוריה ולפי מותג, כפתור מומלצים שמשקלל פרמטרים של מחיר ודירוג של מוצרים ועגלת קניות ששומרת מוצרים בעצלגת קניות שנשמרת בזיכרון הפנימי של המשתמש.",
       "note": "בעיה יחידה שלא הצלחתי לפתור הינה שסל הקניות מכפיל מוצרים החל מהמוצר השני בעגלה.<br>לתפריט של קטגוריות ומותגים לוקח זמן לעלות ויש ללחוץ מספר פעמים כדי שיטען",
       "open": "./javascript/shoppingCard/shoppingCard.html",
-      "github": "URL",
+      "github": "https://github.com/AvivElany/Portfolio/tree/main/javascript/shoppingCard",
       "downloadLink": "URL"
     },
     {
       "id": "11",
       "kind": "js",
       "title": "טריוויה",
-      "thumbnail": "../asset/images/js/trivia.jpg",
+      "thumbnail": "./asset/images/js/trivia.jpg",
       "tech": [
-        "../asset/tech/html.svg",
-        "../asset/tech/css.svg",
-        "../asset/tech/js.svg"
+        "./asset/tech/html.svg",
+        "./asset/tech/css.svg",
+        "./asset/tech/js.svg"
       ],
       "shortDescription": "טריוויה ארץ ישראל",
       "longDescription": "משחק טריוויה שהכנו במהלך השיעורים הרץ על מאגר שאלות ומדפיס אותן זו אחר זו על המסך וסוכם את הניקוד הסופי על המסך בסיום כל שאלה וסיום המשחק",
       "note": "תודה לנטלי רובין על העיצוב של השאלון!",
       "open": "./javascript/Trivia/trivia.html",
-      "github": "URL",
+      "github": "https://github.com/AvivElany/Portfolio/tree/main/javascript/Trivia",
       "downloadLink": "URL"
     },
     {
       "id": "12",
       "kind": "html",
       "title": "My Old Portfolio",
-      "thumbnail": "../asset/images/html/oldPortfolio.jpg",
+      "thumbnail": "./asset/images/html/oldPortfolio.jpg",
       "tech": [
-        "../asset/tech/html.svg",
-        "../asset/tech/css.svg",
-        "../asset/tech/sass.svg",
-        "../asset/tech/js.svg"
+        "./asset/tech/html.svg",
+        "./asset/tech/css.svg",
+        "./asset/tech/sass.svg",
+        "./asset/tech/js.svg"
       ],
       "shortDescription": "",
-      "longDescription": "טיימר הסופר לאחור לפי דרישה עד לסיום הזמן המבוקש",
+      "longDescription": "אתר הפורטפוליו הקודם שהכנתי במסגרת פרויקט ההגשה למודול HTML",
       "note": "",
       "open": "./html/OldPortfolio/portfolioAE.html",
-      "github": "URL",
+      "github": "https://github.com/AvivElany/Portfolio/tree/main/html/OldPortfolio",
       "downloadLink": "URL"
     },
     {
       "id": "13",
       "kind": "html",
       "title": "CV",
-      "thumbnail": "../asset/images/html/cv.jpg",
+      "thumbnail": "./asset/images/html/cv.jpg",
       "tech": [
-        "../asset/tech/html.svg",
-        "../asset/tech/css.svg",
-        "../asset/tech/sass.svg",
-        "../asset/tech/js.svg"
+        "./asset/tech/html.svg",
+        "./asset/tech/css.svg",
+        "./asset/tech/sass.svg",
+        "./asset/tech/js.svg"
       ],
       "shortDescription": "אתר קורות חיים",
-      "longDescription": "טיימר הסופר לאחור לפי דרישה עד לסיום הזמן המבוקש",
+      "longDescription": "אתר שתכליתו להיות מעין עמוד קורות חיים המכיל טאב מתחלף עם סקשנים של קו''ח",
       "note": "",
       "open": "./html/2-cv/cv.html",
-      "github": "URL",
+      "github": "https://github.com/AvivElany/Portfolio/tree/main/html/2-cv",
       "downloadLink": "URL"
     },
     {
       "id": "14",
       "kind": "html",
       "title": "Coffee News fun and Fan",
-      "thumbnail": "../asset/images/html/coffee.jpg",
+      "thumbnail": "./asset/images/html/coffee.jpg",
       "tech": [
-        "../asset/tech/html.svg",
-        "../asset/tech/css.svg",
-        "../asset/tech/bootstrap.svg",
-        "../asset/tech/js.svg"
+        "./asset/tech/html.svg",
+        "./asset/tech/css.svg",
+        "./asset/tech/bootstrap.svg",
+        "./asset/tech/js.svg"
       ],
       "shortDescription": "אתר חדשותי להילולת הקפה",
       "longDescription": "אין אדם שלא אוהב קפה, יש אדם שמשקר לעצמו שהוא לא אוהב קפה. ואני מאוהב בקפה.<br><br>אתה מעוצב שסוקר כתבים ומיידעים בנושא קפה עם רקע בוידאו",
       "note": "",
       "open": "./html/3-coffee/coffee.html",
-      "github": "URL",
+      "github": "https://github.com/AvivElany/Portfolio/tree/main/html/3-coffee",
       "downloadLink": "URL"
     },
     {
       "id": "15",
       "kind": "html",
       "title": "Finance Login Page",
-      "thumbnail": "../asset/images/html/bank.jpg",
+      "thumbnail": "./asset/images/html/bank.jpg",
       "tech": [
-        "../asset/tech/html.svg",
-        "../asset/tech/css.svg",
-        "../asset/tech/bootstrap.svg",
-        "../asset/tech/js.svg"
+        "./asset/tech/html.svg",
+        "./asset/tech/css.svg",
+        "./asset/tech/bootstrap.svg",
+        "./asset/tech/js.svg"
       ],
       "shortDescription": "דף התחברות לאתר פיננסי",
       "longDescription": "עמוד התחברות לחשבון אישי באתר פיננסי-בנקאי המעוצב ע''י רקע בוידאו וטופס התחברות",
       "note": "",
       "open": "./html/4-bank/bank.html",
-      "github": "URL",
+      "github": "https://github.com/AvivElany/Portfolio/tree/main/html/4-bank",
       "downloadLink": "URL"
     },
     {
       "id": "16",
       "kind": "html",
       "title": "Camping Services",
-      "thumbnail": "../asset/images/html/camping.jpg",
+      "thumbnail": "./asset/images/html/camping.jpg",
       "tech": [
-        "../asset/tech/html.svg",
-        "../asset/tech/css.svg",
-        "../asset/tech/js.svg"
+        "./asset/tech/html.svg",
+        "./asset/tech/css.svg",
+        "./asset/tech/js.svg"
       ],
       "shortDescription": "שרותי קאמפינג",
       "longDescription": "אתר של חברה מומצאת לשירותי קאמפיג ומעוצב בגלריה המעוצבת ע''י GRID",
       "note": "",
       "open": "./html/5-camping/camping.html",
-      "github": "URL",
+      "github": "https://github.com/AvivElany/Portfolio/tree/main/html/5-camping",
       "downloadLink": "URL"
     },
     {
       "id": "17",
       "kind": "html",
       "title": "Airplanes Fan Website",
-      "thumbnail": "../asset/images/html/airplanes.jpg",
+      "thumbnail": "./asset/images/html/airplanes.jpg",
       "tech": [
-        "../asset/tech/html.svg",
-        "../asset/tech/css.svg",
-        "../asset/tech/bootstrap.svg",
-        "../asset/tech/js.svg"
+        "./asset/tech/html.svg",
+        "./asset/tech/css.svg",
+        "./asset/tech/bootstrap.svg",
+        "./asset/tech/js.svg"
       ],
       "shortDescription": "יצרניות המטוסים הגדולות בעולם",
       "longDescription": "אתר הסוקר בין שתי יצרניות המטוסים הגדולות בעולם - בוינג ואיירבוס וההסטוריה שלהן",
       "note": "",
       "open": "./html/6-airplanes/airplanes.html",
-      "github": "URL",
+      "github": "https://github.com/AvivElany/Portfolio/tree/main/html/6-airplanes",
       "downloadLink": "URL"
     },
     {
       "id": "18",
       "kind": "html",
       "title": "Stan Smith Snickers Store Website",
-      "thumbnail": "../asset/images/html/selling.jpg",
+      "thumbnail": "./asset/images/html/selling.jpg",
       "tech": [
-        "../asset/tech/html.svg",
-        "../asset/tech/css.svg",
-        "../asset/tech/bootstrap.svg",
-        "../asset/tech/js.svg"
+        "./asset/tech/html.svg",
+        "./asset/tech/css.svg",
+        "./asset/tech/bootstrap.svg",
+        "./asset/tech/js.svg"
       ],
       "shortDescription": "Snickers Store Website",
       "longDescription": "אתר קניות לנעלי סניקרס עם סוגה אחת בודדת (נכון לאותו שלב בקורס) שהם נעלי סטן סמית' של אדידס",
       "note": "",
       "open": "./html/7-selling/selling.html",
-      "github": "URL",
+      "github": "https://github.com/AvivElany/Portfolio/tree/main/html/7-selling",
       "downloadLink": "URL"
     }
   ]
