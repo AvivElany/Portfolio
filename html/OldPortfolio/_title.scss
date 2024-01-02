@@ -1,0 +1,69 @@
+/*********************************title START*********************************/
+.titleContainer {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/main.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 35px;
+    padding-left: 8%;
+    padding-right: 8%;
+    color: #000;
+}
+
+.content {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn {
+    display: block;
+    background: #000;
+    margin: 50px auto;
+    width: -moz-fit-content;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 14px 50px;
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none;
+    transition: background 0.75s;
+}
+
+.content {
+    margin-top: 10%;
+    max-width: 600px;
+}
+
+.content h2 {
+    font-size: 60px
+}
+
+.content p {
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+a {
+    color: #fff;
+}
+
+.link {
+    margin-top: 30px;
+}
+
+.hire {
+    color: #000;
+    text-decoration: none;
+    background: #fff;
+    padding: 9px 25px;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+
+.link .hire:hover {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+/*********************************title END*********************************/

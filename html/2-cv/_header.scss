@@ -1,0 +1,185 @@
+/****************************header START********************************/
+
+#header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/backGroundImage.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    padding: 10px 10%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .2);
+    width: 100%;
+    z-index: 9;
+}
+
+.logo {
+    width: 140px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #667681;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (max-width: 635px) {
+    input[type=checkbox]:checked~.navLinks {
+        display: block;
+    }
+
+    .navLinks {
+        display: none;
+        position: absolute;
+        background-color: #000;
+        text-align: center;
+        right: 30px;
+        top: 62px;
+        padding: 10px;
+        width: 120px;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 24px;
+        -webkit-user-select: auto;
+        -moz-user-select: auto;
+        user-select: auto;
+        background-color: #000;
+    }
+
+    .hamburger:hover .navLinks {
+        display: block;
+    }
+}
+
+.header-text {
+    margin-top: 20%;
+    font-size: 30px;
+    color: #ef6503;
+}
+
+.header-text h1 {
+    font-size: 60px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.header-text h1 span {
+    color: #1a0936;
+}
+
+@media only screen and (max-width: 600px) {
+    .header-text {
+        margin-top: 100%;
+        font-size: 16px;
+    }
+
+    .header-text h1 {
+        font-size: 30px;
+    }
+
+    /* Show the navigation menu on small screens */
+    nav ul {
+        display: none;
+    }
+
+    nav .fas {
+        display: block;
+        font-size: 25px;
+    }
+
+    nav ul {
+        background: #b54768;
+        position: fixed;
+        top: 0;
+        width: 200;
+        right: 0;
+        height: 100vh;
+        padding-top: 50px;
+        display: none;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 25px;
+    }
+
+}
+
+/* ----------Media---------- */
+@media only screen and (max-width: 600px) {
+    nav .fas {
+        display: block;
+        font-size: 25px;
+    }
+
+    nav ul {
+        background: #b54768;
+        position: fixed;
+        top: 0;
+        width: 200px;
+        /* Increased the width to accommodate the menu items */
+        right: 0;
+        height: 100vh;
+        padding-top: 50px;
+        transform: translateX(200px);
+        /* Off-canvas menu, initially hidden */
+        transition: transform 0.3s ease-in-out;
+    }
+
+    nav ul.show {
+        transform: translateX(0);
+        /* Show the menu when 'show' class is applied */
+    }
+
+    nav ul li {
+        display: block;
+        margin: 25px;
+    }
+}
+/****************************header END********************************/

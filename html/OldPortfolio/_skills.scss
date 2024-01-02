@@ -1,0 +1,27 @@
+/*********************************skills START*********************************/
+.skillsContainer {
+    list-style-type: none;
+    padding: 5px;
+    background: linear-gradient(180deg, #98c1d9, #1b4332, #98c1d9);
+}
+
+.skillsContainer ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.skillsContainer ul li {
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.skillsContainer ul li a:hover img {
+    transform: scale(1.3);
+}
+
+.skillImg {
+    height: 25px;
+}
+/*********************************skills END*********************************/

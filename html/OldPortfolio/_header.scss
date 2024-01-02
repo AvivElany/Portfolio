@@ -1,0 +1,98 @@
+/*********************************header START*********************************/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    position: fixed;
+    width: 100vw;
+    padding: 10px;
+    color: #fff;
+    z-index: 999;
+}
+
+.iconImg {
+    width: 25px;
+    border-radius: 50%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.logo a {
+    font-size: 40px;
+    text-decoration: none;
+}
+
+span {
+    color: #f9004d;
+}
+
+.navLinks {
+    list-style-type: none;
+    display: flex;
+    background-color: #000;
+}
+
+.navLinks ul li {
+    margin-right: 22px;
+    background-color: #000;
+}
+
+.navLinks li a {
+    color: #fff;
+    padding: 8px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navLinks li a:hover {
+    color: #748cab;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (max-width: 635px) {
+    input[type=checkbox]:checked~.navLinks {
+        display: block;
+    }
+
+    .navLinks {
+        display: none;
+        position: absolute;
+        background-color: #000;
+        text-align: center;
+        right: 30px;
+        top: 62px;
+        padding: 10px;
+        width: 120px;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 24px;
+        -webkit-user-select: auto;
+        -moz-user-select: auto;
+        user-select: auto;
+        background-color: #000;
+    }
+
+    .hamburger:hover .navLinks {
+        display: block;
+    }
+}
+/*********************************header END*********************************/

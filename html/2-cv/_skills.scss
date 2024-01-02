@@ -1,0 +1,35 @@
+/****************************skills START********************************/
+
+.skills {
+    background-color: rgb(53, 128, 128);
+    display: flex;
+    justify-content: center;
+}
+
+.skills ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    background-color: rgb(53, 128, 128);
+}
+
+.skills ul li {
+    background-color: rgb(53, 128, 128);
+}
+
+.skills ul li a {
+    background-color: rgb(53, 128, 128);
+}
+
+.skills ul li a img {
+    height: 25px;
+    margin: 10px;
+    background-color: rgb(53, 128, 128);
+}
+
+.skills ul li a:hover img {
+    transform: scale(1.3);
+}
+/****************************skills END********************************/

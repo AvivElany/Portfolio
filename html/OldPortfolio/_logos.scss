@@ -1,0 +1,25 @@
+/*********************************logos START*********************************/
+.logos {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: visible;
+}
+
+.personalLogo {
+    border-radius: 20px;
+}
+
+@media (max-width: 800px) {
+    .personalLogo {
+        width: 500px;
+    }
+}
+
+@media (max-width: 600px) {
+    .personalLogo {
+        width: 470px;
+    }
+}
+/*********************************logos END*********************************/
