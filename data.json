@@ -13,6 +13,7 @@
       "shortDescription": "מחשבון BMI",
       "longDescription": "מחשבון BMI מעוצב. כל מה שצריך לעשות הוא להזין גובה במטרים ומשקל בקילוגרמים וללחוץ על הכפתור. מיד תקבל ציון מספרי והערה בהתאם",
       "note": "",
+      "open": "./javascript/BMICalculator/BMICalculator.html",
       "github": "URL",
       "downloadLink": "URL"
     },
@@ -29,6 +30,7 @@
       "shortDescription": "מחשבון",
       "longDescription": "מחשבון פשוט המבצע פעולות חיבור חיסור כפל וחילוק.",
       "note": "",
+      "open": "./javascript/Calculator/calculator.html",
       "github": "URL",
       "downloadLink": "URL"
     },
@@ -45,6 +47,7 @@
       "shortDescription": "משחק נחש את המספר",
       "longDescription": "משחק אינטרקטיבי בו המחשב מגריל מספר בצורה רנדומלית מהמספר אחד עד ללמספר עשרים<br>כל שעל המשתמש לעשות הוא לנחש בצורה מושכלת איזה מספר הוגרל.<br>המחשב שומר בזיכרון את התוצאה הגבוהה ביותר.",
       "note": "",
+      "open": "./javascript/guess-my-number/guess-my-number.html",
       "github": "URL",
       "downloadLink": "URL"
     },
@@ -60,7 +63,8 @@
       ],
       "shortDescription": "מערכת ניהול מוצרים",
       "longDescription": "פרויקטון בן של פרויקט אתר הקניות.<br>עמוד ובוא טבלה המושכת מידע ממאגר נתונים קבוע בו ניתן לבצע שינויים במאגר המידע ה-APIי שלנו<br>באמצעות CRUD ניתן להציג את המידע, למחוק, להוסיף ולערוך רשומות",
-      "note": "",
+      "note": "ראשית ישנו דף התחברות שאותו צריך למלא ואז יפתח עמוד הניהול<br>פרטי ההתחברות מסתתרים בקובץ ה-JS",
+      "open": "./javascript/manageProduct/manageProductLogin.html",
       "github": "URL",
       "downloadLink": "URL"
     },
@@ -77,6 +81,7 @@
       "shortDescription": "טיימר סופר לאחור",
       "longDescription": "טיימר הסופר לאחור לפי דרישה עד לסיום הזמן המבוקש",
       "note": "לפרויקט באג שלא הצלחתי להתגבר עליו. החישוב זמנים נכון עפי מערכי השיעור, רפרנסים וחברי הכיתה ועדיין זה לא סופר נכון דקות ושעות.",
+      "open": "./javascript/pomodoroTimer/pomodoroTimer.html",
       "github": "URL",
       "downloadLink": "URL"
     },
@@ -93,6 +98,7 @@
       "shortDescription": "מחולל סיסמאות אקראיות",
       "longDescription": "מחולל רנדומלי שרץ על חמישה סוגי תווים לפי בחירה אישית ומייצר סיסמא באורך מבוקש. משתמש באותיות לטיניות גדולות, קטנות, מספרים, סימנים וותיות עיבריות.",
       "note": "",
+      "open": "./javascript/random-password/randomPassword.html",
       "github": "URL",
       "downloadLink": "URL"
     },
@@ -109,6 +115,7 @@
       "shortDescription": "מחולל צבעים אקראי",
       "longDescription": "מחולל צבעים רנדומלי שרץ על מעל ל16 מיליון צבעים ומציג למשתמש את הצבע המוגרל וצובע את הרקע בהתאם לבחירה. ניתן להשתמש ללא הגבלת פעמים",
       "note": "",
+      "open": "./javascript/randomColor/randomColor.html",
       "github": "URL",
       "downloadLink": "URL"
     },
@@ -126,6 +133,7 @@
       "shortDescription": "מחולל בדיחות צאק נוריס משפטי מרפי",
       "longDescription": "מחולל רנדומלי של בדיחות ומשפטים לפי בחירה אישית בכפתור.<br>המאגר נמצא באוביקט ופונקציה מגרילה מערך אקראי ומדפיסה בתיבה ייעודית.",
       "note": "",
+      "open": "./javascript/randomSentence/randomSentence.html",
       "github": "URL",
       "downloadLink": "URL"
     },
@@ -142,6 +150,7 @@
       "shortDescription": "אבן נייר ומספריים",
       "longDescription": "משחק אבן נייר ומספריים שעשינו במהלך השיעור<br>פונקציה רנדומלית מגרילה מספר שמשמעותו אבן ניייר או מספריים ומבחירה של המשתמש והאפךיקציה משווה בין תוצאות לפי חוקי המשחק ולבסוף מדפיסה מי ניצח את מי וכל עשרה משחקונים מדפיסה מנצח כללי",
       "note": "",
+      "open": "./javascript/rock-paper-scisors/rockPaperScissors.html",
       "github": "URL",
       "downloadLink": "URL"
     },
@@ -156,9 +165,10 @@
         "../asset/tech/bootstrap.svg",
         "../asset/tech/js.svg"
       ],
-      "shortDescription": "",
+      "shortDescription": "אתר קניות און ליין",
       "longDescription": "אתר קניות מלא המושך נתונים ממאגר נתונים כללי ומדפיס על המסך לפי עיצוב.<br>בנוסף שני כפתורי פילטור לפי קטגוריה ולפי מותג, כפתור מומלצים שמשקלל פרמטרים של מחיר ודירוג של מוצרים ועגלת קניות ששומרת מוצרים בעצלגת קניות שנשמרת בזיכרון הפנימי של המשתמש.",
-      "note": "",
+      "note": "בעיה יחידה שלא הצלחתי לפתור הינה שסל הקניות מכפיל מוצרים החל מהמוצר השני בעגלה.<br>לתפריט של קטגוריות ומותגים לוקח זמן לעלות ויש ללחוץ מספר פעמים כדי שיטען",
+      "open": "./javascript/shoppingCard/shoppingCard.html",
       "github": "URL",
       "downloadLink": "URL"
     },
@@ -175,6 +185,7 @@
       "shortDescription": "טריוויה ארץ ישראל",
       "longDescription": "משחק טריוויה שהכנו במהלך השיעורים הרץ על מאגר שאלות ומדפיס אותן זו אחר זו על המסך וסוכם את הניקוד הסופי על המסך בסיום כל שאלה וסיום המשחק",
       "note": "תודה לנטלי רובין על העיצוב של השאלון!",
+      "open": "./javascript/Trivia/trivia.html",
       "github": "URL",
       "downloadLink": "URL"
     },
@@ -192,6 +203,7 @@
       "shortDescription": "",
       "longDescription": "טיימר הסופר לאחור לפי דרישה עד לסיום הזמן המבוקש",
       "note": "",
+      "open": "./html/OldPortfolio/portfolioAE.html",
       "github": "URL",
       "downloadLink": "URL"
     },
@@ -209,6 +221,7 @@
       "shortDescription": "אתר קורות חיים",
       "longDescription": "טיימר הסופר לאחור לפי דרישה עד לסיום הזמן המבוקש",
       "note": "",
+      "open": "./html/2-cv/cv.html",
       "github": "URL",
       "downloadLink": "URL"
     },
@@ -226,6 +239,7 @@
       "shortDescription": "אתר חדשותי להילולת הקפה",
       "longDescription": "אין אדם שלא אוהב קפה, יש אדם שמשקר לעצמו שהוא לא אוהב קפה. ואני מאוהב בקפה.<br><br>אתה מעוצב שסוקר כתבים ומיידעים בנושא קפה עם רקע בוידאו",
       "note": "",
+      "open": "./html/3-coffee/coffee.html",
       "github": "URL",
       "downloadLink": "URL"
     },
@@ -243,6 +257,7 @@
       "shortDescription": "דף התחברות לאתר פיננסי",
       "longDescription": "עמוד התחברות לחשבון אישי באתר פיננסי-בנקאי המעוצב ע''י רקע בוידאו וטופס התחברות",
       "note": "",
+      "open": "./html/4-bank/bank.html",
       "github": "URL",
       "downloadLink": "URL"
     },
@@ -259,6 +274,7 @@
       "shortDescription": "שרותי קאמפינג",
       "longDescription": "אתר של חברה מומצאת לשירותי קאמפיג ומעוצב בגלריה המעוצבת ע''י GRID",
       "note": "",
+      "open": "./html/5-camping/camping.html",
       "github": "URL",
       "downloadLink": "URL"
     },
@@ -276,6 +292,7 @@
       "shortDescription": "יצרניות המטוסים הגדולות בעולם",
       "longDescription": "אתר הסוקר בין שתי יצרניות המטוסים הגדולות בעולם - בוינג ואיירבוס וההסטוריה שלהן",
       "note": "",
+      "open": "./html/6-airplanes/airplanes.html",
       "github": "URL",
       "downloadLink": "URL"
     },
@@ -293,6 +310,7 @@
       "shortDescription": "Snickers Store Website",
       "longDescription": "אתר קניות לנעלי סניקרס עם סוגה אחת בודדת (נכון לאותו שלב בקורס) שהם נעלי סטן סמית' של אדידס",
       "note": "",
+      "open": "./html/7-selling/selling.html",
       "github": "URL",
       "downloadLink": "URL"
     }
