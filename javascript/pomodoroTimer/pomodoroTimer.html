@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+
+    <link rel="stylesheet" href="pomodoroTimer.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">Countdown Timer</div>
+
+        <div class="input-section" id="input-section">
+            <input type="number" id="hours" placeholder="hours" min="0">
+            <input type="number" id="minutes" placeholder="minutes" min="0" max="59">
+            <input type="number" id="seconds" placeholder="seconds" min="0" max="59">
+            <button onclick="startTimer()">Start</button>
+        </div>
+        
+        <div class="display-section" id="display-section">
+            <span id="displayHours">00</span>
+            <span id="displayMinutes">00</span>
+            <span id="displaySeconds">00</span>
+            <button onclick="stopTimer()">Stop</button>
+        </div>
+    </div>
+
+
+    <script src="pomodoroTimer.js"></script>
+</body>
+</html>

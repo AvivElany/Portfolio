@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #021741;
+  direction: rtl;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  margin: 2%;
+  width: max-content;
+  height: max-content;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #021741;
+  border: 7px solid #3d4d6e;
+  color: white;
+  font-size: 1.7em;
+  text-align: center;
+  font-family: "Noto Sans Hebrew";
+}
+
+
+h1 {
+  width: 75%;
+  height: max-content;
+  padding: 1.5%;
+  margin: auto;
+  border-radius: 20px;
+  background-color: #162950;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  font-family: "Noto Sans Hebrew";
+}
+
+button {
+  display: block;
+  width: 75%;
+  height: max-content;
+  padding: 10px;
+  margin: auto;
+  border-radius: 80px;
+  background-color: #021741;
+  border: 9px solid #393644;
+  color: white;
+  margin-top: 20px;
+  font-size: 1.7em;
+  text-align: center;
+  font-family: "Noto Sans Hebrew";
+
+  &:hover {
+      background-color: #393644;
+      transition: 0.4s;
+      cursor: pointer;
+  }
+}

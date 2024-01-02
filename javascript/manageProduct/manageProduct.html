@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./manageProduct.css">
+
+  <title>Manage Product System</title>
+
+  
+</head>
+<body>
+  
+  <div id="container" class="container">
+    <div id="header" class="header">
+      <h1>Manage All Products</h1>
+      <p>Content management position for all system content.<br>
+        Here you can add a new product, update or delete any product.<br>
+        Make the changes correctly and wisely, or you will accidentally sell a Ferrari for only two dollars!</p>
+    </div>
+
+    <div id="add-product-panel" class="panel hidden">
+      <h3>Add Product</h3>
+      <table id="tabs">
+        <tr>
+          <th><label for="add-product-input-title">Title</label></th>
+          <th><input type="text" id="add-product-input-title" placeholder="Enter product title" value=""></th>
+        </tr>
+        <tr>
+          <th><label for="add-product-input-price">Price</label></th>
+          <th><input type="number" id="add-product-input-price" placeholder="Enter product price" value=""></th>
+        </tr>
+        <tr>
+          <th><label for="add-product-input-stock">Stock</label></th>
+          <th><input type="number" id="add-product-input-stock" placeholder="Enter product stock" value=""></th>
+        </tr>
+        <tr>
+          <th><button type="button" id="save-button" onclick="beforeAddProduct()">Save</button></th>
+          <th><button type="button" id="cancel-button" onclick="hideAddProductPanel()">Cancel</button></th>
+        </tr>
+      </table>
+      
+      
+    </div>
+
+    <div id="update-product-panel" class="panel hidden">
+      <h3>Update Product</h3>
+      <table id="tabs">
+        <tr>
+          <th><label for="update-product-input-id">ID</label></th>
+          <th><input type="text" id="update-product-input-id" value="" disabled></th>
+        </tr>
+        <tr>
+          <th><label for="update-product-input-title">Title</label></th>
+          <th><input type="text" id="update-product-input-title" placeholder="Enter product title" value=""></th>
+        </tr>
+        <tr>
+          <th><label for="update-product-input-price">Price</label></th>
+          <th><input type="number" id="update-product-input-price" placeholder="Enter product price" value=""></th>
+        </tr>
+        <tr>
+          <th><label for="update-product-input-stock">Stock</label></th>
+          <th><input type="number" id="update-product-input-stock" placeholder="Enter product stock" value=""></th>
+        </tr>
+        <tr>
+          <th><button type="button" id="save-button" onclick="beforeUpdateProduct()">Save</button></th>
+          <th><button type="button" id="cancel-button" onclick="hideUpdateProductPanel()">Cancel</button></th>
+        </tr>
+      </table>
+    </div>
+
+    <div id="products-list">
+      <!-- JS Dynamic Content -->
+    </div>
+  </div>
+  <div id="copyright" class="copyright">
+      <p>Copyright © 2023 Aviv Elany. All rights reserved.</p>
+  </div>
+  
+  <script src="./manageProduct.js"></script>
+</body>
+</html>

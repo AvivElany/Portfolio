@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fetch Shopping Shop - Aviv Elany</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+        <!-- לצורך הפעלה של פונט אוסום -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+        <link rel="stylesheet" href="./shoppingCard.css">
+
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-secondary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="#"><span onclick="love('main')">Aviv Elany</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link active" id="fetchButton">All Products</a>
+                    </li>
+                    <li id="categoriesContainer" ondblclick="fetchCategories()" class="nav-item dropdown">
+                        <a id="categoriesContainer" class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Categories</a>
+                    </li>
+                        <li id="brandsContainer" ondblclick="fetchBrands()" class="nav-item dropdown">
+                            <a id="brandsContainer" class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">Brands</a>
+                        <li class="nav-item ">
+                            <a class="nav-link active" onclick="showProductByRecommendation()">Most Recommended</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active" onclick="readME()">Read Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" onclick="hideEverything()">Hide All</a>
+                        </li>
+                    </ul>
+                <form class="d-flex">
+                    <button class="btn btn-warning" type="submit" onclick="renderCart()">
+                        <i class="bi-cart-fill me-1"></i>
+                        Cart
+                        <span id="cartCounter" class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                    </button>
+                    <button class="btn btn-outline-dark" type="submit" onclick="logIn()">
+                        <i class="bi bi-database-fill-gear"></i>
+                        Admin
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+<!--******************************************************************-->
+
+<!-- Header-->
+<header class="bg-dark py-5">
+    <div class="container px-4 px-lg-5 my-5">
+        <div class="text-center text-white">
+            <h1 class="display-3 fw-bolder text-success" onclick="troll()">Shop in style</h1>
+            <p class="lead fw-normal text-white-50 mb-0">The store has a very wide variety of random products, but for
+                sure we are not Walmart</p>
+        </div>
+    </div>
+</header>
+
+<section id="container" class="container bg-primary-subtle d-flex justify-content-around gap-3">
+    <!--כאן קורה כל הקסם-->
+</section>
+<selecter id="mainLogo" class="ext-muted py-5">
+    <img src="./images/avivElanyLogo3.png" title="My Logo" alt="My Logo" id="myLogo">
+</selecter>
+
+<hr>
+<footer class="text-muted py-5">
+    <div class="container">
+        <p class="mb-1"><span onclick="love()">Aviv Elany</span> Shopping Website Project   -   </p>
+        <p class="float-end mb-1 ">
+            <a href="#">Back to top</a>
+        </p>
+        
+
+    </div>
+</footer>
+
+<script src="./shoppingCard.js"></script>
+
+<!--******************************************************************-->
+
+<script src="javaScript/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

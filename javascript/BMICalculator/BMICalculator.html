@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> 
+
+        <title>BMI Calculator</title>
+
+        <link rel="stylesheet" href="./BMICalculator.css">
+</head>
+
+<body>
+<div class="container">
+  <h2 class="BMITitle">BMI Calculator</h2>  
+  <div class="height box">
+    <h4>Height (cm)</h4> 
+    <input type="number" class="height-input">
+  </div>
+  <div class="weight box">
+    <h4>Weight (kg)</h4>  
+    <input type="number" class="weight-input">
+  </div>
+  <button class="calculate-btn">Calculate BMI</button>
+  <div class="result-box">
+    <p class="BMIText">Your BMI is</p> 
+    <div class="bmi">
+      <h3>25.21</h3>     
+    </div>
+    <p class="result">You are <span>in shape!</span></p>
+  </div>
+</div>
+<script src="./BMICalculator.js"></script>
+</body>
+
+</html>

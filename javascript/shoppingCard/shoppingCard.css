@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bungee&family=Lacquer&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 9;
+    width: 100vw;
+    margin: -10px;
+} 
+
+.container {
+    flex-wrap: wrap;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li>a {
+    cursor: pointer;
+}
+
+.card {
+    border: 1px solid #000;
+    width: 75%;
+    text-align: center;
+}
+
+.card-body {
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    background-color: rgb(141, 202, 243);
+}
+
+.card-title {
+    font-family: 'Black Ops One', cursive;
+}
+
+.card-text {
+    width: 250px;
+    text-align: center;
+}
+
+.card-img {
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+    object-fit: contain;
+}
+
+.card-img-main {
+    width: 600px;
+    overflow-y: hidden;
+    padding: 10px;
+    border-radius: 20px;
+    /* transition: 0.3s ease-in-out; */
+}
+
+.card-img-top {
+    width: 250px;
+    height: 150px;
+    overflow-y: hidden;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.card-img-top:hover,.card-img:hover {
+    transform: scale(1.1);
+}
+
+.fa-star {
+    color: gold;
+    font-size: 0.8rem;
+}
+
+.fa-star:hover {
+    color: palevioletred;
+}
+
+.card-price:hover {
+    color:darkolivegreen;
+    font-size: 30px;
+    transition: 0.2s ease-in-out;
+}
+
+.card-brand {
+    font-size: 0.9rem;
+    color: darkslategray;
+}
+.card-category, .card-brand {
+    font-size: 0.8rem;
+    color: darkslategray;
+}
+
+.sides {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.side1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+
+.side2 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+
+h1 {
+    font-size: 60px;
+    color: darkred;
+}
+
+#mainLogo {
+    display: flex;
+    justify-content: center;
+}
