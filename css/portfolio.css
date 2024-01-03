@@ -250,6 +250,10 @@ input[type=checkbox] {
   color: #fec86a;
 }
 
+.h2 {
+font-size: 38px;
+}
+
 .skills {
   display: flex;
   flex-direction: column;
