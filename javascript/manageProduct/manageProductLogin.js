@@ -7,7 +7,7 @@ const password = document.querySelector('#password');
 let counter=0;
 function login() {
     if (userName.value === 'hackeru' && employeeNumber.value === '1306' && password.value === 'hack1306') {
-        alert('You Alredy GO, Pleasr Wait.')
+        alert('You Alredy GO, Please Wait.')
         window.open('./manageProduct.html');
     } else {
         counter++;
