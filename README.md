@@ -13,7 +13,7 @@ _בודק יקר ברוך הבא לפרויקט הפורטפוליו שלי - ס
 - [contact] Contact form that responds and saves details in local storage. We have not yet learned how he actually sends a message.
 - The page was built during the module and I intend to cultivate it more and more.
 
-## סקשנים של הפרויקטונים:
+## The sections of the projects:
 - I built an external file called data.json that contains all the relevant information throughout the use that contains names, details, a display image, the same technologies that every project is built from.
 - both for the JavaScript project and for the HTML&CSS project.
 - On the main page, fetch pulls all the data and creates an HTML page with a completely identical design (in one function).
